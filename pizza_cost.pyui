@@ -1,0 +1,166 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "name" : "Pizza Cost",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter size of the pizza: large=1, extra large=2",
+          "font_name" : "<System>",
+          "name" : "size_instruction_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "D1819A72-7FDC-4C13-8482-ABB41F7DC3F0"
+        },
+        "frame" : "{{34, 35}, {375, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "text" : "",
+          "autocorrection_type" : "default",
+          "name" : "size_textfield",
+          "uuid" : "240E67E6-F29B-478F-B814-7888DCFCD10F",
+          "class" : "TextField",
+          "alignment" : "left",
+          "placeholder" : "Choose 1 or 2",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default"
+        },
+        "frame" : "{{34, 75}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter number of toppings (max: 4)",
+          "font_name" : "<System>",
+          "name" : "toppings_instruction_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "4B4BE543-0C9A-448B-9AAF-1CE85F1DD997"
+        },
+        "frame" : "{{34, 155}, {375, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "text" : "",
+          "autocorrection_type" : "default",
+          "name" : "toppings_textfield",
+          "uuid" : "C26539EC-6980-4961-A5E1-1F076F6DB175",
+          "class" : "TextField",
+          "alignment" : "left",
+          "placeholder" : "Max: 4",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default"
+        },
+        "frame" : "{{34, 195}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Calculate cost",
+          "name" : "calculate_button",
+          "action" : "calculate_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "AD475AD8-255F-4A98-A5A2-E7C9CBE170E9"
+        },
+        "frame" : "{{193, 263}, {160, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "subtotal_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "9A9CAF74-C593-4B51-983C-B269C09B6AF6"
+        },
+        "frame" : "{{34, 329}, {319, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "hst_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "F9801EC8-6605-4A7B-AF29-953DBF57F65C"
+        },
+        "frame" : "{{34, 369}, {319, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "total_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "98628DAD-8E5C-4A1A-B5EE-BC92E6DEA76B"
+        },
+        "frame" : "{{34, 409}, {319, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
